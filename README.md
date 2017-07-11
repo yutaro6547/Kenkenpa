@@ -13,6 +13,6 @@
 
 ![Kenkenpa](https://github.com/yutaro6547/Kenkenpa/blob/media/Kenkenpa.gif)
 
-時間制限が来たときは「TIME UP!」と表示され、今までのハイスコアとタップした枚数が表示される  
+時間制限が来たときは「TIME UP!」と表示され、今までのハイスコアとタップした枚数が表示される  
 出題タイルと違うタイルを踏んだ時は「You died!」と表示され、  
 TIMEUPの時と同様に表示されるが、ハイスコア以上タップしていても更新されることはない
