@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-lang-2.6_e8b9a9e6bac20d81ca74dbed9afa28f9d696c5cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\27de1493e7914b3ede03ea72e80496b5d92b11b0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d99a46004617ea454256024bbd0977236b4c2b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\b74a1fffc4e74e7ca6a05e047c28641980710be2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c1d72d2d71804a55e9e7531515fab4d63e6ab21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d4f25f034a04f7acad4368e053c8f82aaf8d6009\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="be8bf98687acdca4e5dba0e4abf8908b8bdb8fed">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4f9269d3ad695a05faff8d6e8ddaaed422d9e39c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\5a5e42f4edaf92ae98ab19f05d5b530d36247b5c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca7426212f940f37e9b056c62d041d46327d930f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\6c3712ef7526146aa29adb8caa93eb4a5cb5ce96\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_269d3f6f356c16b48c30c4c83d061a6dbd395a63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\e83df5867eff3e9db4813e6796fc0b32b480c82d\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_728af7144928b6ba2cb83e837eaa4d26a799c357\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\dc9dc7e20125796bbbcf583ff678e3d5dab86823\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6435c352593dc31614a583e04bbe5fc935b385f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\Applications\SDK\add-ons\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_498201a8d9a511c81bc53a257bde116af6ab7c75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\5bfee33b35f9db9c164372647a3d900ea95b91d1\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_2775a629343e5118d30b31bf9e4fc8ed3c55a1ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\dc9dc7e20125796bbbcf583ff678e3d5dab86823\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_534449871716e424768f3a50d40a2e955f48d009\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\5bfee33b35f9db9c164372647a3d900ea95b91d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8156703d272b99611756288249cb59c0513c89dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\968782e3025902be2a78a4d96c6be8d4577a1aae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19032303aeed9b5de6c027cb73d7d83395e985ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\5a5e42f4edaf92ae98ab19f05d5b530d36247b5c\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6584f0f74fccb6332c8b01c8fbd783809c2f27f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\6398ee01ba5637c91640b821c0489b998354e9ca\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_61d5d9848c8ab1619fe4811764602d186050b616\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\e83df5867eff3e9db4813e6796fc0b32b480c82d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_013e8283cd8e073fd7e6e71df082282819c88623\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\YUTARO SUZUKI\.android\build-cache\6398ee01ba5637c91640b821c0489b998354e9ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d37bdf5a29cc872fbcaad60eb8d9430e0fddd6b5\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AZkenpa</string>
+    <string name="game_start">もういっかい!</string>
+    <string name="clear">TIME UP！</string>
+    <string name="game_over">You died!</string>
+    <string name="high_score">ハイスコア：%s 枚</string>
+    <string name="tile_count">踏んだ枚数：%s 枚</string>
+    <string name="AZkenpa">AZkenpa</string>
+</resources>
