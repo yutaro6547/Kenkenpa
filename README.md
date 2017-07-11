@@ -18,6 +18,6 @@
 TIMEUPの時と同様に表示されるが、ハイスコア以上タップしていても更新されることはない
 
 ## Others
-![Kenkenpa1](https://github.com/yutaro6547/Kenkenpa/blob/media/s_Kenkenpa1.png)
+![Kenkenpa1](https://github.com/yutaro6547/Kenkenpa/blob/media/s_Kenkenpa1.png)  
 分かり辛いかもしれないので、赤枠の部分が出題タイルのアルファベット  
 黄色枠の部分が実際に自分がタップする部分でここでは「S」をタップするのが正解
