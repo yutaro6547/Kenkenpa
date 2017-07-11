@@ -19,42 +19,35 @@ public class ClearActivity extends AppCompatActivity {
         setContentView(R.layout.activity_clear);
         //他のActivityから値を受け取るときはIntentを使う
         Intent receiveIntent = getIntent();
-        if(receiveIntent == null){
+        if (receiveIntent == null) {
             finish();
         }
         //Intentの付加情報はExtras付与される
         Bundle receiveExtras = receiveIntent.getExtras();
-        if(receiveExtras == null){
+        if (receiveExtras == null) {
             finish();
         }
-        boolean isClear = receiveExtras.getBoolean(EXTRA_IS_CLEAR,false);
-        int tileCount = receiveExtras.getInt(EXTRA_TILE_COUNT,0);
-        TextView textTitle = (TextView)findViewById(R.id.textTitle);
-        TextView textTileCount = (TextView)findViewById(R.id.textTileCount);
-        TextView textHighScore = (TextView)findViewById(R.id.textHighScore);
-
+        boolean isClear = receiveExtras.getBoolean(EXTRA_IS_CLEAR, false);
+        int tileCount = receiveExtras.getInt(EXTRA_TILE_COUNT, 0);
+        TextView textTitle = (TextView) findViewById(R.id.textTitle);
+        TextView textTileCount = (TextView) findViewById(R.id.textTileCount);
+        TextView textHighScore = (TextView) findViewById(R.id.textHighScore);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        long highScore = sharedPreferences.getLong("high_score",0);
-
-
-        if(highScore < tileCount && isClear){
+        long highScore = sharedPreferences.getLong("high_score", 0);
+        if (highScore < tileCount && isClear) {
             highScore = tileCount;
             SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putLong("high_score",highScore);
+            editor.putLong("high_score", highScore);
             editor.commit();
         }
-        textHighScore.setText(getString(R.string.high_score,highScore));
-
-        Button gameStart = (Button)findViewById(R.id.buttonGameStart);
-
-        if(isClear){
+        textHighScore.setText(getString(R.string.high_score, highScore));
+        Button gameStart = (Button) findViewById(R.id.buttonGameStart);
+        if (isClear) {
             textTitle.setText(R.string.clear);
-        }else{
+        } else {
             textTitle.setText(R.string.game_over);
         }
-
-        textTileCount.setText(getString(R.string.tile_count,tileCount));
-
+        textTileCount.setText(getString(R.string.tile_count, tileCount));
         gameStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,8 +56,5 @@ public class ClearActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
-
 }

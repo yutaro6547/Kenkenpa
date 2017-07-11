@@ -1,8 +1,6 @@
 package com.example.yutarosuzuki.kenkenpa;
 
 
-
-
 import android.annotation.TargetApi;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -13,7 +11,6 @@ import android.os.Build;
 /**
  * Created by YUTARO SUZUKI on 2016/08/31.
  * ゲーム画面におけるタイルの作成クラス
- *
  */
 public class Tile {
 
@@ -33,53 +30,47 @@ public class Tile {
     }
 
     //文字を取り出すためのgetter
-    public String getAl(){
+    public String getAl() {
         return mAl;
     }
 
-    public float getTop(){
+    public float getTop() {
         return mTop;
     }
 
     //タイル左辺を取り出すためのgetter
-    public float getLeft(){
+    public float getLeft() {
         return mLeft;
     }
 
     //タイルの底辺を取り出すためのgetter
-    public float getBottom(){
+    public float getBottom() {
         return mBottom;
     }
 
     //タイルの右辺を取り出すためのgetter
-    public float getRight(){
+    public float getRight() {
         return mRight;
     }
 
-
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public void draw(Canvas canvas, Paint paint){
+    public void draw(Canvas canvas, Paint paint) {
         // 文字の座標
-        float x =  (mRight + mLeft) / 2;
+        float x = (mRight + mLeft) / 2;
         float y = (mTop + mBottom) / 2;
-
         // 塗りつぶし部分を描画
         paint.setColor(Color.WHITE);
         paint.setStyle(Paint.Style.FILL);
-        canvas.drawRoundRect(mLeft, mTop, mRight, mBottom, 700, 700,paint);
-
+        canvas.drawRoundRect(mLeft, mTop, mRight, mBottom, 700, 700, paint);
         // 文字を描画
         paint.setTextSize(200);
         paint.setColor(Color.GRAY);
         // 文字がタイルの真ん中に来るように調整
-        canvas.drawText(mAl, x-70, y + 70, paint);
-
+        canvas.drawText(mAl, x - 70, y + 70, paint);
         // 枠線部分を描画
-        paint.setARGB(173,216,230,255);
+        paint.setARGB(173, 216, 230, 255);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(4f);
         canvas.drawRoundRect(mLeft, mTop, mRight, mBottom, 700, 700, paint);
-
     }
-
 }

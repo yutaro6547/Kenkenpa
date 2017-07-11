@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\SourceTree\Kenkenpa\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="824ad769a3b4f6a003a9b15e4d8c981ed0a08e60">
+        <dex dex="D:\SourceTree\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6b78c2d11e03da975c7d3118cafc91d815c83dee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\YUTARO SUZUKI\.android\build-cache\b74a1fffc4e74e7ca6a05e047c28641980710be2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -117,6 +126,15 @@
         revision="25.0.0"
         sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
         <dex dex="C:\Users\YUTARO SUZUKI\AndroidStudioProjects\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8156703d272b99611756288249cb59c0513c89dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SourceTree\Kenkenpa\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\SourceTree\Kenkenpa\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dc7f953e4d22c679916920edd6671b782bac0dbe\classes.dex" />
     </item>
     <item
         is-multidex="true"

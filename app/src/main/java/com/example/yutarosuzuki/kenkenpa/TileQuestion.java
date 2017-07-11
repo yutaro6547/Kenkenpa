@@ -31,19 +31,16 @@ public class TileQuestion {
         // 文字の座標
         float x =  (mRight + mLeft) / 2;
         float y = (mTop + mBottom) / 2;
-
         // アルファベットを描画
         paint.setTextSize(200);
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.FILL);
         // アルファベットが画面上部に来るように調整
         canvas.drawText(mAl, x - 70, y + 70, paint);
-
         //テキストを描画
         paint.setTextSize(150);
         paint.setColor(Color.BLACK);
         //テキストがアルファベットの隣に来るように調整
         canvas.drawText(mText, x + 100, y + 70, paint);
     }
-
 }

@@ -15,25 +15,26 @@ public class CalcTime {
     }
 
     // 現在の時間を返す
-    public long getNowTime(){
+    public long getNowTime() {
         return mNowTime;
     }
+
     // カウントダウン開始
-    public void startCountDown(){
+    public void startCountDown() {
         mStartTime = System.currentTimeMillis();
     }
 
     // 現在の時間を計算
     // カウント終了でtrueを返す
-    public boolean calc(){
+    public boolean calc() {
         long current = System.currentTimeMillis();
         long time_gone = (current - mStartTime) / 1000;
-        if(time_gone >= 30){
+        if (time_gone >= 30) {
             mNowTime = 0;
-        }else {
+        } else {
             mNowTime = GAME_TIME - time_gone;
         }
-        if(mNowTime == 0) {
+        if (mNowTime == 0) {
             return true;
         }
         return false;
